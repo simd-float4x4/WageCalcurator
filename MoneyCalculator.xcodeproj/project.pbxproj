@@ -15,6 +15,7 @@
 		702E56892CAA323000D3FFED /* MoneyCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E56882CAA323000D3FFED /* MoneyCalculatorTests.swift */; };
 		702E56932CAA323000D3FFED /* MoneyCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E56922CAA323000D3FFED /* MoneyCalculatorUITests.swift */; };
 		702E56952CAA323000D3FFED /* MoneyCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E56942CAA323000D3FFED /* MoneyCalculatorUITestsLaunchTests.swift */; };
+		702E56A22CAA336500D3FFED /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702E56A12CAA336500D3FFED /* Int+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		702E568E2CAA323000D3FFED /* MoneyCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		702E56922CAA323000D3FFED /* MoneyCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyCalculatorUITests.swift; sourceTree = "<group>"; };
 		702E56942CAA323000D3FFED /* MoneyCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		702E56A12CAA336500D3FFED /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				702E56792CAA322300D3FFED /* Item.swift */,
 				702E567B2CAA322E00D3FFED /* Assets.xcassets */,
 				702E567D2CAA322E00D3FFED /* Preview Content */,
+				702E56A12CAA336500D3FFED /* Int+Extension.swift */,
 			);
 			path = MoneyCalculator;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				702E56782CAA322300D3FFED /* ContentView.swift in Sources */,
+				702E56A22CAA336500D3FFED /* Int+Extension.swift in Sources */,
 				702E567A2CAA322300D3FFED /* Item.swift in Sources */,
 				702E56762CAA322300D3FFED /* MoneyCalculatorApp.swift in Sources */,
 			);

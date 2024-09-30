@@ -10,9 +10,19 @@ import SwiftData
 
 @Model
 final class Item {
+    var hourlyWage: Int
+    var workingHoursPerDay: Int
+    var workingHoursPerMonth: Int
+    var midnightWorkingHours: Int
+    var midnightWorkingFactor: Int
     var timestamp: Date
     
-    init(timestamp: Date) {
+    init(hourlyWage: Int, workingHoursPerDay: Int, workingHoursPerMonth: Int, midnightWorkingHours: Int, midnightWorkingFactor: Int, timestamp: Date) {
+        self.hourlyWage = hourlyWage
+        self.workingHoursPerDay = workingHoursPerDay
+        self.workingHoursPerMonth = workingHoursPerMonth
+        self.midnightWorkingHours = midnightWorkingHours
+        self.midnightWorkingFactor = midnightWorkingFactor
         self.timestamp = timestamp
     }
 }
